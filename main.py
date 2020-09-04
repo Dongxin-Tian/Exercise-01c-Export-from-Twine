@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
-import sys, os, json, re, time
+import sys, os, json, re, time, random
 assert sys.version_info >= (3,8), "This script requires at least Python 3.8"
 
 first = True
+canShoot = False
+hp = 3
 
 def load(l):
     f = open(os.path.join(sys.path[0], l))
