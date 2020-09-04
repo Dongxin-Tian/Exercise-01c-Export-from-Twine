@@ -1,0 +1,132 @@
+{
+  "passages": [
+    {
+      "text": "You are in your apartment. At this time, a zombie virus outbreak in your city was reported on TV. The government claimed that there was an evacuation point is in a middle school in the south of the city. \n\n[[Prepare to take refuge->Prepare]]",
+      "links": [
+        {
+          "name": "Prepare to take refuge",
+          "link": "Prepare",
+          "pid": "5"
+        }
+      ],
+      "name": "None",
+      "pid": "1",
+      "position": {
+        "x": "401",
+        "y": "97.5"
+      }
+    },
+    {
+      "text": "You picked up your M1911A1, there are 7 rounds in the magazine.\n\n[[Keep preparing->Prepare]]\n[[Leave the apartment->Streets]]",
+      "links": [
+        {
+          "name": "Keep preparing",
+          "link": "Prepare",
+          "pid": "5"
+        },
+        {
+          "name": "Leave the apartment",
+          "link": "Streets",
+          "pid": "3"
+        }
+      ],
+      "name": "Get Gun",
+      "pid": "2",
+      "position": {
+        "x": "210",
+        "y": "321.5"
+      }
+    },
+    {
+      "text": "You walked out of the apartment, and the street was a mess, full of screams. There are two ways to go to the evacuation point, one is towards the park and the other is towards the main street. Where are you going?\n\n[[Go to the park->Park]]\n[[Go to the main streets->Main Streets]]",
+      "links": [
+        {
+          "name": "Go to the park",
+          "link": "Park",
+          "pid": "6"
+        },
+        {
+          "name": "Go to the main streets",
+          "link": "Main Streets",
+          "pid": "7"
+        }
+      ],
+      "name": "Streets",
+      "pid": "3",
+      "position": {
+        "x": "360",
+        "y": "321.5"
+      }
+    },
+    {
+      "text": "You tried to call the police, but no one answered.\n\n[[Keep preparing->Prepare]]\n[[Leave the apartment->Streets]]",
+      "links": [
+        {
+          "name": "Keep preparing",
+          "link": "Prepare",
+          "pid": "5"
+        },
+        {
+          "name": "Leave the apartment",
+          "link": "Streets",
+          "pid": "3"
+        }
+      ],
+      "name": "Call Police",
+      "pid": "4",
+      "position": {
+        "x": "529",
+        "y": "319.5"
+      }
+    },
+    {
+      "text": "What are you going to do now?\n\n[[Pick up your gun->Get Gun]]\n[[Leave your apartment->Streets]]\n[[Call the police for help->Call Police]]",
+      "links": [
+        {
+          "name": "Pick up your gun",
+          "link": "Get Gun",
+          "pid": "2"
+        },
+        {
+          "name": "Leave your apartment",
+          "link": "Streets",
+          "pid": "3"
+        },
+        {
+          "name": "Call the police for help",
+          "link": "Call Police",
+          "pid": "4"
+        }
+      ],
+      "name": "Prepare",
+      "pid": "5",
+      "position": {
+        "x": "558",
+        "y": "179.5"
+      }
+    },
+    {
+      "text": "Double-click this passage to edit it.",
+      "name": "Park",
+      "pid": "6",
+      "position": {
+        "x": "285",
+        "y": "471.5"
+      }
+    },
+    {
+      "text": "Double-click this passage to edit it.",
+      "name": "Main Streets",
+      "pid": "7",
+      "position": {
+        "x": "435",
+        "y": "471.5"
+      }
+    }
+  ],
+  "name": "Zombie Survival",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.9",
+  "ifid": "4AEAD6AE-FC07-41E7-86AC-8312EBAA1782"
+}
