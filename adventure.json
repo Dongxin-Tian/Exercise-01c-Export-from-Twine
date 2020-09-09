@@ -1,7 +1,7 @@
 {
   "passages": [
     {
-      "text": "You are in your apartment. At this time, a zombie virus outbreak in your city was reported on TV. The government claimed that there was an evacuation point is in a middle school in the south of the city. \n\n[[Prepare to take refuge->Prepare]]",
+      "text": "You are in your apartment. At this time, a zombie virus outbreak in your city was reported on TV. The government claimed that there was an evacuation point is in a middle school in the south of the city. \n\n[ (1)Prepare to take refuge ]",
       "links": [
         {
           "name": "Prepare to take refuge",
@@ -9,15 +9,15 @@
           "pid": "5"
         }
       ],
-      "name": "None",
+      "name": "Start",
       "pid": "1",
       "position": {
         "x": "401",
-        "y": "97.5"
+        "y": "97"
       }
     },
     {
-      "text": "You picked up your M1911A1, there are 7 rounds in the magazine.\n\n[[Keep preparing->Prepare]]\n[[Leave the apartment->Streets]]",
+      "text": "You picked up your M1911A1, there are 7 rounds in the magazine.\n\n[ (1)Keep preparing ]\n[ (2)Leave the apartment ]",
       "links": [
         {
           "name": "Keep preparing",
@@ -34,11 +34,11 @@
       "pid": "2",
       "position": {
         "x": "210",
-        "y": "321.5"
+        "y": "321"
       }
     },
     {
-      "text": "You walked out of the apartment, and the street was a mess, full of screams. There are two ways to go to the evacuation point, one is towards the park and the other is towards the main street. Where are you going?\n\n[[Go to the park->Park]]\n[[Go to the main streets->Main Streets]]",
+      "text": "You walked out of the apartment, and the street was a mess, full of screams. There are two ways to go to the evacuation point, one is towards the park and the other is towards the main street. Where are you going?\n\n[ (1)Go to the park ]\n[ (2)Go to the main streets ]",
       "links": [
         {
           "name": "Go to the park",
@@ -55,11 +55,11 @@
       "pid": "3",
       "position": {
         "x": "360",
-        "y": "321.5"
+        "y": "321"
       }
     },
     {
-      "text": "You tried to call the police, but no one answered.\n\n[[Keep preparing->Prepare]]\n[[Leave the apartment->Streets]]",
+      "text": "You tried to call the police, but no one answered.\n\n[ (1)Keep preparing ]\n[ (2)Leave the apartment ]",
       "links": [
         {
           "name": "Keep preparing",
@@ -76,11 +76,11 @@
       "pid": "4",
       "position": {
         "x": "529",
-        "y": "319.5"
+        "y": "319"
       }
     },
     {
-      "text": "What are you going to do now?\n\n[[Pick up your gun->Get Gun]]\n[[Leave your apartment->Streets]]\n[[Call the police for help->Call Police]]",
+      "text": "What are you going to do now?\n\n[ (1)Pick up your gun ]\n[ (2)Leave your apartment ]\n[ (3)Call the police for help]",
       "links": [
         {
           "name": "Pick up your gun",
@@ -102,25 +102,79 @@
       "pid": "5",
       "position": {
         "x": "558",
-        "y": "179.5"
+        "y": "179"
       }
     },
     {
-      "text": "Double-click this passage to edit it.",
+      "text": "You have reached the park now, there are many zombies wandering around here.\n\n[ (1)Keep going ]\n[ (2)Go back ]",
+      "links": [
+        {
+          "name": "Keep going",
+          "link": "Main Streets",
+          "pid": "7"
+        },
+        {
+          "name": "Go back",
+          "link": "Streets",
+          "pid": "3"
+        }
+      ],
       "name": "Park",
       "pid": "6",
       "position": {
         "x": "285",
-        "y": "471.5"
+        "y": "471"
       }
     },
     {
-      "text": "Double-click this passage to edit it.",
+      "text": "You are now on the main streets, and many people are fleeing in the direction of the mall.\n\n[ (1)Follow them to the mall ]\n[ (2)Go back ]",
+      "links": [
+        {
+          "name": "Follow them to the mall",
+          "link": "Mall",
+          "pid": "8"
+        },
+        {
+          "name": "Go back",
+          "link": "Streets",
+          "pid": "3"
+        }
+      ],
       "name": "Main Streets",
       "pid": "7",
       "position": {
         "x": "435",
-        "y": "471.5"
+        "y": "471"
+      }
+    },
+    {
+      "text": "You are in the mall now, and the helicopter in the sky broadcasts people to hurry up to the school to take refuge.\n\n[ (1)Go to the school ]\n[ (2)Go back ]",
+      "links": [
+        {
+          "name": "Go to the school",
+          "link": "Escape",
+          "pid": "9"
+        },
+        {
+          "name": "Go back",
+          "link": "Main Streets",
+          "pid": "7"
+        }
+      ],
+      "name": "Mall",
+      "pid": "8",
+      "position": {
+        "x": "435",
+        "y": "621"
+      }
+    },
+    {
+      "text": "You finally arrived at the refuge point, and soon the helicopter will carry people away in waves. You can finally relax from the tension, what a nightmare!",
+      "name": "Escape",
+      "pid": "9",
+      "position": {
+        "x": "435",
+        "y": "771"
       }
     }
   ],
